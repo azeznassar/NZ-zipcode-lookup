@@ -10,7 +10,7 @@ body.addEventListener('click', dltLoc);
 function getLocInfo(e) {
     e.preventDefault();
 
-    fetch(`http://api.zippopotam.us/NZ/${zip.value}`)
+    fetch(`https://api.zippopotam.us/NZ/${zip.value}`)
         .then(response => {
             if(response.status != 200) {
                 showIco('.icon-remove');
