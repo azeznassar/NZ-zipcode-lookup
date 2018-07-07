@@ -1,2 +1,2 @@
 # NZ Zipcode Lookup
->Displays the location information of a New Zealand zipcode on look up. 
+>Enter a New Zealand zipcode to get the location information
